@@ -1,0 +1,34 @@
+<center><h1>Guess the number game</h1>
+<input id="guess" type="number" placeholder="Enter a Number">
+<button id="check" onclick="result()">Check</button>
+<p id="guessing">You are Right or Wrong</p>
+<p id="score">Score:10</p>
+<script>
+  var guess=document.getElementById("guess")
+  var check=document.getElementById("check")
+  var guessing=document.getElementById("guessing")
+  var score=document.getElementById("score")
+  var total=Math.floor(Math.random()*10)+1
+  var tscore=10
+  function result()
+  {
+    
+    var finalresult=guess.value
+    
+
+    if (total==finalresult)
+  {
+    guessing.textContent="You are Right"
+    alert("You Won")
+  }
+  else
+  {
+    tscore=tscore-1
+    score.textContent="Score:"+tscore
+    guessing.textContent="You are Wrong"
+    
+  }
+  }
+
+</script>
+</center>

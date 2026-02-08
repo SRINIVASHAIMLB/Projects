@@ -1,0 +1,9 @@
+.one:hover{
+background-color: black;
+color: red;
+}
+.one{
+    cursor: pointer;
+    color: black;
+}
+

@@ -1,0 +1,13 @@
+
+button{
+    background-color:white;
+    color: black;
+    cursor: pointer;
+}
+body{
+    color: black;
+    background-color: white;
+}
+.one{
+    cursor: pointer;
+}
