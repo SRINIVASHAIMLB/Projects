@@ -11,3 +11,12 @@ body{
 .one{
     cursor: pointer;
 }
+.one:hover{
+    background-color: orange;
+}
+.two:hover{
+    background-color: orange;
+}
+.three:hover{
+    background-color: orange;
+}
