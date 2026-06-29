@@ -13,7 +13,7 @@ ul{
     color: gray;    
 }
 li:hover{
-    background-color: white;
+    background-color: rgb(6, 238, 234);
     color: black;
     cursor: pointer;
 
